@@ -21,7 +21,7 @@
 	
     <div id="nav_wrapper">
     	<ul>
-    		<li><a href="../pages/index2.html">Home</a></li><li>
+    		<li><a href="../pages/index.html">Home</a></li><li>
         	<a href="../pages/practiceoflaw.html">Practice of Law</a>
            	  <ul style="box-shadow:1px 1px 20px 2px #65B031;background:#65B031;">
                 	<li><a href="../pages/darth_vader.html">Anakin Skywalker/Darth Vader</a></li>
