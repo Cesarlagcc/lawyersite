@@ -1,0 +1,724 @@
+@charset "UTF-8";
+body{	
+	background-color:white;
+	xbackground-image:url(../starbackground.jpg);
+	xbackground-repeat:no-repeat;
+	background-position:right;
+	background-size:;
+	background-repeat:repeat-y;
+	color:white;
+	margin:0 auto;
+}
+
+
+	
+ table, th, td {
+    border: 3px solid #089;
+    border-collapse:collapse;
+	text-align:center;
+	border-bottom:none;
+	padding:5px;
+	xborder-left:none;
+	xborder-right:none;
+	xborder-top:none;
+	
+}
+
+th{
+	font-family:"Star Jedi";
+	font-weight:lighter;
+	}
+
+.header{
+	background-color:#e1e68b;
+	xbackground:-moz-linear-gradient(#cccccc, black); /* For Firefox 3.6 to 15 */
+	xbackground: -webkit-linear-gradient(top,#e1e68b, #990);; 
+	xheight:100px;
+	background-position:center;
+	position:fixed;
+	z-index:4;
+	width:100%;
+	
+	}
+
+	.logo{
+		position:relative;
+		display:block;
+		xmargin:0 auto;
+		margin-top:20px;
+		margin-left:4%;
+		margin-right:inherit;
+		padding-top:20px;
+		padding-bottom:20px;
+		width:25%;
+		top:0px;
+		z-index:4;
+		xborder:1px solid red;
+		}
+
+
+.container{background-color:#ebebeb;
+width:100%;
+xmargin-top:0;
+position:relative;
+xmargin-left:-8px;
+padding-top:200px;
+xheight:1000px;
+}
+
+	
+#menu{
+	xposition:relative;
+	xborder-radius:1px;
+	xdisplay:block;
+	xbackground:-moz-linear-gradient(#cccccc, green); /* For Firefox 3.6 to 15 */
+	xbackground:-webkit-linear-gradient(#cccccc, green); /* For Firefox 3.6 to 15 */
+	xwidth:100%;
+	xlist-style-type:none;
+	xpadding-top:26px;
+	xheight:70px;
+	xtext-align:center;
+	xlist-style-type:none;
+	}
+	
+	
+	
+	#menu a{
+		
+		xwidth:100%;
+		xfont-size:17px;
+		xxborder:1px solid #fff;
+		xpadding-top:15px;
+		xpadding-bottom:10px;
+		xpadding-right:110px;
+		xpadding-left:110px;
+		xbackground:#333;
+		xcolor:white;
+		xxborder-bottom:none;
+		xtext-decoration:none;
+		xxborder-radius:2px;
+	    xmargin-left:1%;
+		
+		}
+		
+	
+
+		
+	#menu a:hover{
+		xbackground:black;
+		xcolor:#FFD162;
+		xcursor:pointer;
+		}
+	
+
+		
+		.open > .dropdown-menu{
+			xborder-radius:2px;
+			xpadding-left:0;
+			background:#fff;
+			margin-left:22.5%;
+			padding-right:;
+			margin-top:11px;
+			padding-bottom:0;
+			padding-top:0;
+			xbox-shadow:0px 0px 10px yellow;
+			border-bottom:none;
+			border-right:none;
+			border-left:none;
+			border-top:none;
+			}
+		
+		
+		
+		.dropdown-menu > li > a{
+			xmargin-top:2px;
+			xmargin-left:100px;
+			xposition:relative;
+			}
+			 
+				
+			
+		
+	
+	#footer{
+	clear:both;
+	xbackground:-moz-linear-gradient(bottom,#cccccc, black); /* For Firefox 3.6 to 15 */
+	xbackground: -webkit-linear-gradient(top,#e1e68b,#990); 
+	background-color:#e1e68b;
+	color:black;
+	height:100px;
+	xmargin-top:10px;
+	border-top:4px solid #e3dddd;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+	
+	.well{
+	color:black;
+	border-left:3px solid #993;
+	border-right:3px solid #993;
+	}
+	
+	#onegame{
+	border:3px solid #089;
+	border-left:none;
+	border-right:none;
+	}
+
+	#gametwo{
+	clear:both;
+	}
+
+	#battlefront{
+float:left;
+xborder:1px solid white;
+	}
+	
+	#battlefront2{
+		float:right;
+		}
+	
+
+	.game-text{
+	width:100%;
+	xborder:1px solid white;
+	border-left:none;
+	border-right:none;
+	padding-left:410px;
+	padding-top:5px;
+	}
+	
+	
+	.game-video{
+		xpadding-left:32%;
+		xborder:1px solid white;
+		xclear:both;
+		}
+		
+		
+	.trailer1{
+		width:100%;
+		}
+		
+	
+	.poster{
+		box-shadow:1px 1px 90px 5px #222;
+		margin-top:20px;
+		height:400px;
+		width:300px;
+		}
+	
+	.moviecontainer{
+		height:450px;
+		background-image:url(images/theaterimage.jpg);
+		background-position:center; 
+		background-size:cover;
+		}
+		
+	
+	#gametwo{
+	border:3px solid #089;
+	border-left:none;
+	border-right:none;
+	xbackground:#ebebeb;
+		}
+		
+	.gametexttwo{
+		width:100%;
+		xborder:2px solid green;
+		xtext-indent:10px;
+		padding-top:10px;
+		margin-left:4px;
+		}
+		
+	
+		
+		
+		
+
+	
+.carousel-inner{
+		}
+		
+ 	#myCarousel{
+		width:100%;
+		xpadding-left:10%;
+		position:relative;
+		xleft:5%;
+		margin-bottom:10px;
+		box-shadow:5px 0px 50px #ccc;
+		xborder:1px solid red;
+		}
+		
+		
+		
+	#nav{
+		background-color:#e1e68b;
+		position:relative;
+		float:none;
+		height:0;
+		xtop:-45px;
+		xwidth:100%;
+		xz-index:4;
+		xmargin-top:80px;
+		xmargin-left:-14px;
+		xmargin-right:;
+		xborder-radius:5px;
+		xtop:100px;
+		xleft:475px;
+		display:block;
+		text-align:right;
+		xborder:1px solid red;
+		}
+			
+		
+	#nav_wrapper{
+		xtext-align:center;
+		xmargin:0 auto;
+		xwidth:100%;
+		xbackground:green;
+		width:100%;
+		xborder:1px solid red;
+		background-color:#e1e68b;
+		}	
+		
+	#nav ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position:relative;
+		ztext-align:center;
+		
+		}
+		
+		#nav ul li{
+			display:inline-block;
+			xbackground:red;
+			xmargin:5px;
+			
+			}
+			
+	#nav ul li:hover{
+		xbackground:red;
+		}
+		
+	#nav ul li a,visited{
+		color:#B05B20;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		display:block;
+		padding:10px 90px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:;
+		text-align:center;
+		border-radius:1px;
+		
+		}	
+		
+		
+	#nav ul li a:hover{
+		color:#722902;
+		xbackground:#ccc;
+		border-bottom:1px solid #C30;
+		}
+	
+	
+	#nav ul li:hover ul{
+		display:block;
+		z-index:3;
+		background:#ccc;
+		border-radius:10px;
+		display:none;
+		}
+	#nav ul ul{
+		display:none;
+		position:absolute;
+		background-color:red;
+		xpadding-top:50px;
+		margin-top:0.04em;
+		}
+	
+		
+	#nav ul ul li{
+		display:block;
+		}
+		
+		
+	#nav ul ul li a,visted{
+		color:white;
+		xbox-shadow:1px 1px 20px 2px;
+		border-radius:10px;
+		padding:10px 55px;
+		}
+		
+	#nav ul ul li a:hover{
+		color:#089;
+		}
+		
+		
+		
+	.item{
+		height:450px;
+		}	
+		
+		
+
+	
+		
+		
+	.page-header{
+		font-family:"Star Jedi";
+		padding:0 0;
+		}
+		
+	
+		
+
+ .carousel-indicators{
+ z-index:inherit;
+ 	}
+	
+	.main-sub{
+		
+		}
+	
+	
+	.box{
+		position:relative;
+		xtop:5%;
+		display:inline-block;
+		xborder:1px solid red;
+		color:black;
+		font-family:Arial, Helvetica, sans-serif;
+		float:left;
+  		width: 30%;
+ 		height:200px;
+ 		margin-left: 2.3%;	
+		margin-top:50px; 
+		margin-bottom:50px;
+		margin-right:0;
+		padding:30px 0;
+		-webkit-column-count:1; /* Chrome, Safari, Opera */
+   	   -moz-column-count:1; /* Firefox */
+	    border-top:3px solid #990;
+		column-count:auto;
+	    border-bottom:3px solid #990;
+	   xpadding:12px 0;
+	   xline-height:40px;
+		}
+		
+		
+		
+
+		
+	#main-box{
+		position:relative;
+		top:50px;
+		};
+		
+		
+		
+
+
+
+
+@media (max-width: 1200px){
+	.logo{
+		display:none;
+	}
+	
+	#container{
+		display:none;
+	}
+	
+	
+	#nav ul li a,visited{
+		color:white;
+		display:block;
+		padding:10px 70px;
+		text-decoration:none;
+		xmargin-left:20px;
+		xbackground:red;
+		}	
+		
+		
+		#nav{
+		xbackground-color:blue;
+		position:static;
+		xfloat:none;
+		xtop:60%;
+		xz-index:4;
+		xmargin-top:80px;
+		xmargin-left:-14px;
+		xmargin-right:;
+		xborder-radius:5px;
+		xtop:100px;
+		xleft:475px;
+		width:100%;
+		}
+		
+		
+		
+		
+	}
+
+
+
+
+@media (max-width: 767px){
+	.logo{
+		width:50%;
+		xmargin-left:0;
+		xmargin-top:20px;
+		padding:0;
+		display:block;
+		margin:0 auto;
+	}
+	
+	
+	#nav{
+		xbackground-color:blue;
+		position:static;
+		xfloat:none;
+		xtop:60%;
+		xz-index:4;
+		xmargin-top:80px;
+		xmargin-left:-14px;
+		xmargin-right:;
+		xborder-radius:5px;
+		xtop:100px;
+		xleft:475px;
+		width:100%;
+		display:block;
+		}
+			
+		
+	#nav_wrapper{
+		xtext-align:center;
+		xmargin:0 auto;
+		width:100%;
+		display:block;
+		background:#e1e68b;
+		margin:0 auto;
+		}	
+		
+	#nav ul{
+		list-style-type:none;
+		xposition:relative;
+		padding:0;
+		margin:0 auto;
+		xposition:relative;
+		text-align:center;
+		
+		}
+		
+		#nav ul li{
+			display:inline-block;
+			xbackground:red;
+			xmargin:5px;
+			
+			}
+	
+	
+	
+	#nav ul li a,visited{
+		xdisplay:block;
+		padding:10px 30px;
+		text-decoration:none;
+		xmargin-left:20px;
+		}	
+	
+	.header{
+	background-color:#e1e68b;
+	height:auto;
+	}
+	
+		
+	}
+
+
+
+		
+		
+	
+	
+@media (max-width: 480px) { 
+
+.logo{
+	width:100%;
+	border:none;
+	}
+
+.header{
+	height:auto;
+	margin:0px;
+	}
+	
+	
+
+#nav{	width:100%;	
+		background-color:lightgreen;
+		position:relative;
+		xfloat:right;
+		top:0px;
+		xz-index:4;
+		xmargin-top:80px;
+		xmargin-left:-14px;
+		xmargin-right:;
+		xborder-radius:5px;
+		xtop:100px;
+		padding:0;
+		
+		}
+		
+		#nav_wrapper{
+		xposition:relative;
+		xmargin:0 auto;
+		xfloat:left;
+		xheight:auto;
+		margin:0px;
+			}
+			
+		#nav ul{
+		list-style-type:none;
+		xposition:relative;
+		padding:0px;
+		margin:0px -50px;
+		xposition:relative;
+		xtext-align:center;}
+		
+		#nav ul li a:hover{
+			border:none;
+			}
+
+
+
+#nav ul li a,visited{
+		display:block;
+		padding:30px 20px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:;
+		margin:-10px;
+		}	
+
+
+#nav ul ul li a,visted{
+		xbox-shadow:1px 1px 20px 2px;
+		border-radius:10px;
+		xpadding:10px 20px;
+		}
+
+
+
+.image{
+	xleft:50%;
+	display:none;
+	}
+	
+.starheader{
+	width:100%;
+	margin-right:-1%;
+	height:100px;
+	xmargin-right:50px;
+	xborder:1px solid white;
+	position:absolute;
+	right:5px;
+	}
+
+
+
+		#menu{
+			padding-top:10px;
+			background:grey;
+			height:auto;
+			}
+
+
+		#menu a{
+			text-align:center;
+			padding-top:5px;
+			padding-bottom:5px;
+			padding-left:10px;
+			padding-right:10px;
+			xmargin-top:0.4em;
+		}
+
+		.image2{
+			display:none;
+		}
+	
+		.vader{width:100%;}
+	
+		#obiold{margin-right:15px;}
+
+		#boba{
+	     width:100%;
+		}
+
+		#battlefront{
+			width:90%;
+			margin-left:20px;
+			}
+			
+			
+			#battlefront2{width:100%;}
+			
+			
+		.game-text{
+			clear:both;
+			color:white;
+			padding:0;
+			margin:0;
+			border-bottom:none;
+			width:100%;
+			xborder:1px solid white;
+			}
+			
+			.trailer1{ 
+				margin-top:-100px;
+				width:100%;
+				}
+				
+		#onegame{
+	border:5px solid #089;
+	border-left:none;
+	border-right:none;
+	margin-bottom:50px;
+	}
+				
+				
+		#gametwo{
+	border:5px solid #089;
+	border-left:none;
+	border-right:none;	}
+	
+	
+	#kotr{
+		float:left;
+		width:100%;
+		}
+		
+	.kotr-text{
+		clear:both;
+			color:white;
+			padding:0;
+			xmargin:0;
+			border-bottom:none;
+			width:100%;
+			xborder:1px solid white;
+		}
+	
+	
+	.poster{
+		margin-top:25%;
+		width:35%;
+		height:200px;
+		width:40%;
+		}
+		
+	.moviecontainer{
+		
+		}
+			
+}
+	
